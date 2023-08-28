@@ -1,0 +1,334 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    width: 100%;
+    height: 4190px;
+    background-color: black;
+}
+.r1{
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(black, transparent, black), url('https://miro.medium.com/v2/resize:fit:1400/1*5lyavS59mazOFnb55Z6znQ.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.r1r1{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 100%;
+    width: 400px;
+    background-image: url('https://1000logos.net/wp-content/uploads/2017/05/Netflix-Logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: 200px;
+}
+.button{
+    height: 100%;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.b1{
+    height: 100%;
+    width: 130px;
+    display: flex;
+    align-items: center;
+}
+.signin{
+    height: 30px;
+    width: 90px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid red;
+    background-color: red;
+    font-size: 17px;
+    transition: 1s;
+}
+.signin:hover{
+    height: 35px;
+    width: 95px;
+}
+.lang{
+    height: 30px;
+    width: 90px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    transition: 1s;
+}
+.lang:hover{
+    height: 35px;
+    width: 95px;
+}
+.space{
+    width: 100%;
+    height: 50px;
+}
+.r1r2{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+.all{
+    height: 100%;
+    width: 650px;
+}
+.txt{
+    width: 100%;
+    height: 350px;
+    color: white;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.txt1{
+    width: 100%;
+    height: 200px;
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+.txt2{
+    width: 100%;
+    height: 200px;
+    letter-spacing: 1px;
+}
+.search{
+    width: 100%;
+    height: 100px;
+}
+.input{
+    height: 45px;
+    width: 75%;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    background-color: rgba(85, 83, 83, 0.3);
+    font-size: 17px;
+    padding-left: 10px;
+    color: rgb(246, 243, 243);
+}
+.start{
+    height: 46px;
+    width: 22%;
+    outline: none;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    border-radius: 2px;
+}
+.r2{
+    width: 100%;
+    height: 7px;
+    background-color: rgb(61, 61, 61);
+}
+.r3{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tv{
+    width: 1200px;
+    height: 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img1{
+    width: 550px;
+    height: 400px;
+}
+.text1{
+    width: 550px;
+    height: 270px;
+    color: white;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 30px;
+}
+.r4{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down{
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text2{
+    width: 480px;
+    height: 320px;
+    color: white;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 30px;
+}
+.img2{
+    width: 550px;
+    height: 450px;
+}
+.r5{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.every{
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img3{
+    width: 550px;
+    height: 400px;
+}
+.text3{
+    width: 550px;
+    height: 300px;
+    color: white;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.r6{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text4{
+    width: 480px;
+    height: 320px;
+    color: white;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 30px;
+}
+.img4{
+    width: 550px;
+    height: 400px;
+}
+.faq{
+    height: 700px;
+    padding: 60px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.list{
+    margin: 60px 200px;
+    width: 100%;
+    max-width: 750px;
+}
+li{
+    list-style: none;
+    width: 1000px;
+    padding: 5px;
+}
+label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.detail{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.list input[type="radio"]:checked + label + .detail{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.list input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+.mail{
+    width: 100%;
+    height: 180px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+.r8{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    text-align: left;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.r9{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.num{
+    height: 100%;
+    width: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding-left: 10px;
+}
